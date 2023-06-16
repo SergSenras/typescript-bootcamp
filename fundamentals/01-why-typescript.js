@@ -1,5 +1,12 @@
-var courseName = 'Typescript Bootcamp';
-printCourseName(courseName);
-function printCourseName(name) {
-    console.log('The course name is ' + name.toUpperCase());
+var courseName = "Typescript Bootcamp";
+debugger;
+//comment
+if (courseName) {
+    var subtitle = "Learn the language fundamentals, build practical projects";
+    printCourseName(courseName);
 }
+function printCourseName(name) {
+    debugger;
+    console.log("The course name is " + name.toUpperCase());
+}
+//# sourceMappingURL=01-why-typescript.js.map
